@@ -3,7 +3,7 @@ cask "anicli-go" do
   name "anicli-go"
   desc "Anime browser & downloader TUI (anilibria)"
   homepage "https://github.com/4q4r/anicli-go"
-  version "1.0.2"
+  version "1.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,26 +12,26 @@ cask "anicli-go" do
   on_macos do
     on_intel do
       url "https://github.com/4q4r/anicli-go/releases/download/v#{version}/anicli-go_#{version}_darwin_amd64"
-      sha256 "d8572fa85094b297fb9ecff81c5e56b5d50f359c15957242f4897083a2aeeb52"
-      binary "anicli-go_1.0.2_darwin_amd64", target: "anicli"
+      sha256 "4e3c73f00308a562a4b94f34d53acd8d1dce6105a0f20550afc6d3e90ad4ddf4"
+      binary "anicli-go_1.0.3_darwin_amd64", target: "anicli"
     end
     on_arm do
       url "https://github.com/4q4r/anicli-go/releases/download/v#{version}/anicli-go_#{version}_darwin_arm64"
-      sha256 "8e0b84f7bcc7df52e354689f12ce6ebf782ca1e0af3b279cc97d00b2ac4d9fde"
-      binary "anicli-go_1.0.2_darwin_arm64", target: "anicli"
+      sha256 "a1c18b46eb8986e2788c58511281696b9f5c101dcd8e142ab6b34216f543ac2e"
+      binary "anicli-go_1.0.3_darwin_arm64", target: "anicli"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/4q4r/anicli-go/releases/download/v#{version}/anicli-go_#{version}_linux_amd64"
-      sha256 "9377ae79440564ae5cb7dd9dfc474e13d25b3f31a3cf0f0774771d183e9bace0"
-      binary "anicli-go_1.0.2_linux_amd64", target: "anicli"
+      sha256 "96043d2c001df3764fbc90b57ef070a9c647cd86fa5578c66e019e6d6741cd6c"
+      binary "anicli-go_1.0.3_linux_amd64", target: "anicli"
     end
     on_arm do
       url "https://github.com/4q4r/anicli-go/releases/download/v#{version}/anicli-go_#{version}_linux_arm64"
-      sha256 "5e84ba03ad601e80a4ceef5fd398e3a1fc1984fa848c4c7eb79e54255f3ee205"
-      binary "anicli-go_1.0.2_linux_arm64", target: "anicli"
+      sha256 "fafe8798c472d67ff64e71aac599e1b745fc7913844cc612a8944fc94625b0ac"
+      binary "anicli-go_1.0.3_linux_arm64", target: "anicli"
     end
   end
 
